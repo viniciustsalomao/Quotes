@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		DD41006024FDAEF9009D3A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */; };
 		DD41006224FDAEF9009D3A24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */; };
-		DD41006424FDAEF9009D3A24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41006324FDAEF9009D3A24 /* ViewController.swift */; };
 		DD41006724FDAEF9009D3A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41006524FDAEF9009D3A24 /* Main.storyboard */; };
 		DD41006924FDAEFA009D3A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41006824FDAEFA009D3A24 /* Assets.xcassets */; };
 		DD41006C24FDAEFA009D3A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41006A24FDAEFA009D3A24 /* LaunchScreen.storyboard */; };
+		DD41007B24FDC521009D3A24 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41007A24FDC521009D3A24 /* QuotesViewController.swift */; };
+		DD41007D24FDC556009D3A24 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41007C24FDC556009D3A24 /* SettingsViewController.swift */; };
+		DD41008124FDCA45009D3A24 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41008024FDCA45009D3A24 /* Quote.swift */; };
+		DD41008424FDCA86009D3A24 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41008324FDCA86009D3A24 /* QuotesManager.swift */; };
+		DD41008624FDCAA2009D3A24 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41008524FDCAA2009D3A24 /* Configuration.swift */; };
+		DD41008724FDD18A009D3A24 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = DD41007824FDB041009D3A24 /* quotes.json */; };
+		DD41008824FDD1C8009D3A24 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = DD41007924FDB041009D3A24 /* Savoye LET.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD41005C24FDAEF9009D3A24 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD41006324FDAEF9009D3A24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD41006624FDAEF9009D3A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD41006824FDAEFA009D3A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD41006B24FDAEFA009D3A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD41006D24FDAEFA009D3A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD41007824FDB041009D3A24 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		DD41007924FDB041009D3A24 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		DD41007A24FDC521009D3A24 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		DD41007C24FDC556009D3A24 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DD41008024FDCA45009D3A24 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		DD41008324FDCA86009D3A24 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		DD41008524FDCAA2009D3A24 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */,
-				DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */,
-				DD41006324FDAEF9009D3A24 /* ViewController.swift */,
-				DD41006524FDAEF9009D3A24 /* Main.storyboard */,
+				DD41007724FDB02B009D3A24 /* Files */,
+				DD41008224FDCA6E009D3A24 /* Models */,
+				DD41007F24FDC597009D3A24 /* Views */,
+				DD41007E24FDC579009D3A24 /* Controllers */,
 				DD41006824FDAEFA009D3A24 /* Assets.xcassets */,
-				DD41006A24FDAEFA009D3A24 /* LaunchScreen.storyboard */,
+				DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */,
 				DD41006D24FDAEFA009D3A24 /* Info.plist */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		DD41007724FDB02B009D3A24 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD41007824FDB041009D3A24 /* quotes.json */,
+				DD41007924FDB041009D3A24 /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		DD41007E24FDC579009D3A24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD41007C24FDC556009D3A24 /* SettingsViewController.swift */,
+				DD41007A24FDC521009D3A24 /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD41007F24FDC597009D3A24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD41006524FDAEF9009D3A24 /* Main.storyboard */,
+				DD41006A24FDAEFA009D3A24 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD41008224FDCA6E009D3A24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD41008024FDCA45009D3A24 /* Quote.swift */,
+				DD41008324FDCA86009D3A24 /* QuotesManager.swift */,
+				DD41008524FDCAA2009D3A24 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD41008724FDD18A009D3A24 /* quotes.json in Resources */,
 				DD41006C24FDAEFA009D3A24 /* LaunchScreen.storyboard in Resources */,
 				DD41006924FDAEFA009D3A24 /* Assets.xcassets in Resources */,
+				DD41008824FDD1C8009D3A24 /* Savoye LET.ttc in Resources */,
 				DD41006724FDAEF9009D3A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD41006424FDAEF9009D3A24 /* ViewController.swift in Sources */,
+				DD41007B24FDC521009D3A24 /* QuotesViewController.swift in Sources */,
 				DD41006024FDAEF9009D3A24 /* AppDelegate.swift in Sources */,
+				DD41008624FDCAA2009D3A24 /* Configuration.swift in Sources */,
 				DD41006224FDAEF9009D3A24 /* SceneDelegate.swift in Sources */,
+				DD41008124FDCA45009D3A24 /* Quote.swift in Sources */,
+				DD41008424FDCA86009D3A24 /* QuotesManager.swift in Sources */,
+				DD41007D24FDC556009D3A24 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.Pensamentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
