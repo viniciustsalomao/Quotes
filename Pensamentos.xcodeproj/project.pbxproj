@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD41006024FDAEF9009D3A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */; };
 		DD41006224FDAEF9009D3A24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */; };
 		DD41006724FDAEF9009D3A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD41006524FDAEF9009D3A24 /* Main.storyboard */; };
 		DD41006924FDAEFA009D3A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD41006824FDAEFA009D3A24 /* Assets.xcassets */; };
@@ -19,11 +18,12 @@
 		DD41008624FDCAA2009D3A24 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41008524FDCAA2009D3A24 /* Configuration.swift */; };
 		DD41008724FDD18A009D3A24 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = DD41007824FDB041009D3A24 /* quotes.json */; };
 		DD41008824FDD1C8009D3A24 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = DD41007924FDB041009D3A24 /* Savoye LET.ttc */; };
+		DD41008A2501AB63009D3A24 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD4100892501AB63009D3A24 /* Settings.bundle */; };
+		DD41008C2501AFE8009D3A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41008B2501AFE8009D3A24 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD41005C24FDAEF9009D3A24 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD41006624FDAEF9009D3A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD41006824FDAEFA009D3A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		DD41008024FDCA45009D3A24 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		DD41008324FDCA86009D3A24 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		DD41008524FDCAA2009D3A24 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		DD4100892501AB63009D3A24 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DD41008B2501AFE8009D3A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +70,14 @@
 		DD41005E24FDAEF9009D3A24 /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
-				DD41005F24FDAEF9009D3A24 /* AppDelegate.swift */,
+				DD41008B2501AFE8009D3A24 /* AppDelegate.swift */,
+				DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */,
 				DD41007724FDB02B009D3A24 /* Files */,
 				DD41008224FDCA6E009D3A24 /* Models */,
 				DD41007F24FDC597009D3A24 /* Views */,
 				DD41007E24FDC579009D3A24 /* Controllers */,
 				DD41006824FDAEFA009D3A24 /* Assets.xcassets */,
-				DD41006124FDAEF9009D3A24 /* SceneDelegate.swift */,
+				DD4100892501AB63009D3A24 /* Settings.bundle */,
 				DD41006D24FDAEFA009D3A24 /* Info.plist */,
 			);
 			path = Pensamentos;
@@ -179,6 +182,7 @@
 				DD41006C24FDAEFA009D3A24 /* LaunchScreen.storyboard in Resources */,
 				DD41006924FDAEFA009D3A24 /* Assets.xcassets in Resources */,
 				DD41008824FDD1C8009D3A24 /* Savoye LET.ttc in Resources */,
+				DD41008A2501AB63009D3A24 /* Settings.bundle in Resources */,
 				DD41006724FDAEF9009D3A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,10 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD41007B24FDC521009D3A24 /* QuotesViewController.swift in Sources */,
-				DD41006024FDAEF9009D3A24 /* AppDelegate.swift in Sources */,
 				DD41008624FDCAA2009D3A24 /* Configuration.swift in Sources */,
 				DD41006224FDAEF9009D3A24 /* SceneDelegate.swift in Sources */,
 				DD41008124FDCA45009D3A24 /* Quote.swift in Sources */,
+				DD41008C2501AFE8009D3A24 /* AppDelegate.swift in Sources */,
 				DD41008424FDCA86009D3A24 /* QuotesManager.swift in Sources */,
 				DD41007D24FDC556009D3A24 /* SettingsViewController.swift in Sources */,
 			);
